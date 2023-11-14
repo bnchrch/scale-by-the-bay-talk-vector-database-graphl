@@ -1,0 +1,1267 @@
+{
+  "__schema": {
+    "queryType": {
+      "name": "WeaviateObj"
+    },
+    "types": [
+      {
+        "description": "String or String[]",
+        "kind": "SCALAR",
+        "name": "TextDateGetObjectsActivites"
+      },
+      {
+        "fields": [
+          {
+            "args": [],
+            "description": "Record ID, used for bookkeeping.",
+            "name": "_ab_record_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "_ab_stream",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "_additional",
+            "type": {
+              "kind": "OBJECT",
+              "name": "ActivitesAdditional",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "achievement_count",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "athlete",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "athlete_count",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "average_cadence",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "average_heartrate",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "average_speed",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "average_temp",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "average_watts",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "comment_count",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "commute",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "device_watts",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "display_hide_heartrate_option",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "distance",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "elapsed_time",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "elev_high",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "elev_low",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "end_latlng",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "external_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "flagged",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "from_accepted_tag",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "gear_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "has_heartrate",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "has_kudoed",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "heartrate_opt_out",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "kilojoules",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "kudos_count",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "manual",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "map",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "max_heartrate",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "max_speed",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "max_watts",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "moving_time",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "name",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "photo_count",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "pr_count",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "private",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "raw_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "resource_state",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "sport_type",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "start_date",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "start_date_local",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "start_latlng",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "suffer_score",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "text",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "timezone",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "total_elevation_gain",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "total_photo_count",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "trainer",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "type",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "upload_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "upload_id_str",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "utc_offset",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "visibility",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "weighted_average_watts",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "workout_type",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "OBJECT",
+        "name": "Activites"
+      },
+      {
+        "description": "The `Float` scalar type represents signed double-precision fractional values as specified by [IEEE 754](http://en.wikipedia.org/wiki/IEEE_floating_point). ",
+        "kind": "SCALAR",
+        "name": "Float"
+      },
+      {
+        "description": "An object containing the Operands that can be applied to a 'where' filter",
+        "inputFields": [
+          {
+            "description": "Specify a Text value that the target property will be compared to",
+            "name": "valueText",
+            "type": {
+              "kind": "SCALAR",
+              "name": "TextGetObjectsActivites",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Specify a String value that the target property will be compared to",
+            "name": "valueDate",
+            "type": {
+              "kind": "SCALAR",
+              "name": "TextDateGetObjectsActivites",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Contains the Operands that can be applied to a 'where' filter",
+            "name": "operands",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "GetObjectsActivitesWhereOperandsInpObj",
+                "ofType": null
+              }
+            }
+          },
+          {
+            "description": "Contains the Operators that can be applied to a 'where' filter",
+            "name": "operator",
+            "type": {
+              "kind": "ENUM",
+              "name": "GetObjectsActivitesWhereOperatorEnum",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Specify the path from the Objects fields to the property name (e.g. ['Things', 'City', 'population'] leads to the 'population' property of a 'City' object)",
+            "name": "path",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              }
+            }
+          },
+          {
+            "description": "Specify a String value that the target property will be compared to",
+            "name": "valueString",
+            "type": {
+              "kind": "SCALAR",
+              "name": "TextStringGetObjectsActivites",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Specify a Float value that the target property will be compared to",
+            "name": "valueNumber",
+            "type": {
+              "kind": "SCALAR",
+              "name": "FloatGetObjectsActivites",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Specify an Integer value that the target property will be compared to",
+            "name": "valueInt",
+            "type": {
+              "kind": "SCALAR",
+              "name": "IntGetObjectsActivites",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Specify a Boolean value that the target property will be compared to",
+            "name": "valueBoolean",
+            "type": {
+              "kind": "SCALAR",
+              "name": "BooleanGetObjectsActivites",
+              "ofType": null
+            }
+          }
+        ],
+        "kind": "INPUT_OBJECT",
+        "name": "GetObjectsActivitesWhereOperandsInpObj"
+      },
+      {
+        "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
+        "kind": "SCALAR",
+        "name": "String"
+      },
+      {
+        "description": "Boolean or Boolean[]",
+        "kind": "SCALAR",
+        "name": "BooleanGetObjectsActivites"
+      },
+      {
+        "description": "String or String[]",
+        "kind": "SCALAR",
+        "name": "TextGetObjectsActivites"
+      },
+      {
+        "description": "An object containing the Operators that can be applied to a 'where' filter",
+        "enumValues": [
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "And"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "Like"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "LessThan"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "Equal"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "Not"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "NotEqual"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "Or"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "GreaterThanEqual"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "IsNull"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "ContainsAny"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "ContainsAll"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "GreaterThan"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "LessThanEqual"
+          },
+          {
+            "deprecationReason": null,
+            "description": "",
+            "isDeprecated": false,
+            "name": "WithinGeoRange"
+          }
+        ],
+        "kind": "ENUM",
+        "name": "GetObjectsActivitesWhereOperatorEnum"
+      },
+      {
+        "description": "The `Boolean` scalar type represents `true` or `false`.",
+        "kind": "SCALAR",
+        "name": "Boolean"
+      },
+      {
+        "description": "An object containing filter options for a local Get query, used to convert the result to the specified filters",
+        "inputFields": [
+          {
+            "description": "Specify a Boolean value that the target property will be compared to",
+            "name": "valueBoolean",
+            "type": {
+              "kind": "SCALAR",
+              "name": "BooleanGetObjectsActivites",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Specify a Text value that the target property will be compared to",
+            "name": "valueText",
+            "type": {
+              "kind": "SCALAR",
+              "name": "TextGetObjectsActivites",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Specify a String value that the target property will be compared to",
+            "name": "valueDate",
+            "type": {
+              "kind": "SCALAR",
+              "name": "TextDateGetObjectsActivites",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Contains the Operands that can be applied to a 'where' filter",
+            "name": "operands",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "GetObjectsActivitesWhereOperandsInpObj",
+                "ofType": null
+              }
+            }
+          },
+          {
+            "description": "Contains the Operators that can be applied to a 'where' filter",
+            "name": "operator",
+            "type": {
+              "kind": "ENUM",
+              "name": "GetObjectsActivitesWhereOperatorEnum",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Specify a String value that the target property will be compared to",
+            "name": "valueString",
+            "type": {
+              "kind": "SCALAR",
+              "name": "TextStringGetObjectsActivites",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Specify the path from the Objects fields to the property name (e.g. ['Things', 'City', 'population'] leads to the 'population' property of a 'City' object)",
+            "name": "path",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              }
+            }
+          },
+          {
+            "description": "Specify an Integer value that the target property will be compared to",
+            "name": "valueInt",
+            "type": {
+              "kind": "SCALAR",
+              "name": "IntGetObjectsActivites",
+              "ofType": null
+            }
+          },
+          {
+            "description": "Specify a Float value that the target property will be compared to",
+            "name": "valueNumber",
+            "type": {
+              "kind": "SCALAR",
+              "name": "FloatGetObjectsActivites",
+              "ofType": null
+            }
+          }
+        ],
+        "kind": "INPUT_OBJECT",
+        "name": "GetObjectsActivitesWhereInpObj"
+      },
+      {
+        "description": "An object used to get %ss on a local Weaviate",
+        "fields": [
+          {
+            "args": [
+              {
+                "description": "Limit the results set (usually fewer results mean faster queries)",
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Int",
+                  "ofType": null
+                }
+              },
+              {
+                "description": "Show the results after the first x results (pagination option)",
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Int",
+                  "ofType": null
+                }
+              },
+              {
+                "description": "Cut off number of results after the Nth extrema. Off by default, negative numbers mean off.",
+                "name": "autocut",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Int",
+                  "ofType": null
+                }
+              },
+              {
+                "description": "Filter options for a local Get query, used to convert the result to the specified filters",
+                "name": "where",
+                "type": {
+                  "kind": "INPUT_OBJECT",
+                  "name": "GetObjectsActivitesWhereInpObj",
+                  "ofType": null
+                }
+              },
+              {
+                "description": "Show the results after a given ID",
+                "name": "after",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "String",
+                  "ofType": null
+                }
+              }
+            ],
+            "name": "Activites",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "OBJECT",
+                "name": "Activites",
+                "ofType": null
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "OBJECT",
+        "name": "GetObjectsObj"
+      },
+      {
+        "description": "String or String[]",
+        "kind": "SCALAR",
+        "name": "TextStringGetObjectsActivites"
+      },
+      {
+        "description": "Float or Float[]",
+        "kind": "SCALAR",
+        "name": "FloatGetObjectsActivites"
+      },
+      {
+        "description": "Object and Interface types are described by a list of Fields, each of which has a name, potentially a list of arguments, and a return type.",
+        "fields": [
+          {
+            "args": [],
+            "name": "args",
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "__InputValue",
+                    "ofType": null
+                  }
+                }
+              }
+            }
+          },
+          {
+            "args": [],
+            "name": "deprecationReason",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "description",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "isDeprecated",
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            }
+          },
+          {
+            "args": [],
+            "name": "name",
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              }
+            }
+          },
+          {
+            "args": [],
+            "name": "type",
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "OBJECT",
+                "name": "__Type",
+                "ofType": null
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "OBJECT",
+        "name": "__Field"
+      },
+      {
+        "description": "The fundamental unit of any GraphQL Schema is the type. There are many kinds of types in GraphQL as represented by the `__TypeKind` enum.\n\nDepending on the kind of a type, certain fields describe information about that type. Scalar types provide no information beyond a name and description, while Enum types provide their values. Object and Interface types provide the fields they describe. Abstract types, Union and Interface, provide the Object types possible at runtime. List and NonNull types compose other types.",
+        "fields": [
+          {
+            "args": [],
+            "name": "description",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [
+              {
+                "defaultValue": "false",
+                "name": "includeDeprecated",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Boolean",
+                  "ofType": null
+                }
+              }
+            ],
+            "name": "enumValues",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "__EnumValue",
+                  "ofType": null
+                }
+              }
+            }
+          },
+          {
+            "args": [
+              {
+                "defaultValue": "false",
+                "name": "includeDeprecated",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Boolean",
+                  "ofType": null
+                }
+              }
+            ],
+            "name": "fields",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "__Field",
+                  "ofType": null
+                }
+              }
+            }
+          },
+          {
+            "args": [],
+            "name": "inputFields",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "__InputValue",
+                  "ofType": null
+                }
+              }
+            }
+          },
+          {
+            "args": [],
+            "name": "interfaces",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "__Type",
+                  "ofType": null
+                }
+              }
+            }
+          },
+          {
+            "args": [],
+            "name": "name",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "ofType",
+            "type": {
+              "kind": "OBJECT",
+              "name": "__Type",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "possibleTypes",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "__Type",
+                  "ofType": null
+                }
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "OBJECT",
+        "name": "__Type"
+      },
+      {
+        "description": "The `Int` scalar type represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1. ",
+        "kind": "SCALAR",
+        "name": "Int"
+      },
+      {
+        "description": "Int or Int[]",
+        "kind": "SCALAR",
+        "name": "IntGetObjectsActivites"
+      },
+      {
+        "fields": [
+          {
+            "args": [],
+            "name": "certainty",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "creationTimeUnix",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "distance",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "explainScore",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "description": "The UUID of a Object, assigned by its local Weaviate",
+            "name": "id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "lastUpdateTimeUnix",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "score",
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            }
+          },
+          {
+            "args": [],
+            "name": "vector",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Float",
+                "ofType": null
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "OBJECT",
+        "name": "ActivitesAdditional"
+      },
+      {
+        "description": "Location of the root query",
+        "fields": [
+          {
+            "args": [],
+            "description": "Get Objects on a local Weaviate",
+            "name": "Get",
+            "type": {
+              "kind": "OBJECT",
+              "name": "GetObjectsObj",
+              "ofType": null
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "OBJECT",
+        "name": "WeaviateObj"
+      }
+    ]
+  }
+}

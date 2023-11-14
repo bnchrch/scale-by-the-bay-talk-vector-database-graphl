@@ -1,0 +1,18 @@
+query {
+  Get {
+    Activites(
+      nearText: {
+        distance: 0.18,
+        concepts: ["How many of my virtual rides have been Zwifts Endurance rides?"]
+    }) {
+      raw_id
+      start_date
+      elapsed_time
+      name
+      sport_type
+      _additional {
+        distance
+      }
+    }
+  }
+}

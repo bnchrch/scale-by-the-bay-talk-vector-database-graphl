@@ -1,0 +1,12 @@
+{
+  "Get": {
+    "Activites": [
+      {
+        "type": "VirtualRide"
+      },
+      {
+        "type": "VirtualRide"
+      }
+    ]
+  }
+}

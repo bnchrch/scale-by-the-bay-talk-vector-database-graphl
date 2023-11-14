@@ -1,0 +1,8 @@
+
+query {
+  Get {
+    Activites(where: {path: ["type"], operator: Equal, valueString: "VirtualRide"}) {
+      name
+    }
+  }
+}

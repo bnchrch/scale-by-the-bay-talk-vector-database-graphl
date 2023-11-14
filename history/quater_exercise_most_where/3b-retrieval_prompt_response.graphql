@@ -1,0 +1,15 @@
+query {
+  Get {
+    Activites(
+      where: {
+        operator: GreaterThanEqual,
+        valueDate: "2021-01-01T00:00:00Z",
+        path: ["start_date"]
+      },
+      limit: 1000
+    ) {
+      elapsed_time
+      start_date
+    }
+  }
+}

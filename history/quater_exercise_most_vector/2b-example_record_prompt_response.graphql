@@ -1,0 +1,8 @@
+query {
+  Get {
+    Activites(limit: 1) {
+      elapsed_time
+      start_date
+    }
+  }
+}

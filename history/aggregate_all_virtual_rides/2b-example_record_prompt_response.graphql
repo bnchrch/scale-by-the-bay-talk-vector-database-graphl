@@ -1,0 +1,12 @@
+query {
+  Aggregate {
+    Activites(
+      groupBy: ["type"]
+      limit: 1
+    ) {
+      type {
+        count
+      }
+    }
+  }
+}

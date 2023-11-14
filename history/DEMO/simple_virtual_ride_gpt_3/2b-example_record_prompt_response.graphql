@@ -1,0 +1,30 @@
+
+query {
+  Get {
+    Activites(limit: 3) {
+      name
+      type
+      distance
+      moving_time
+      elapsed_time
+      average_speed
+      average_cadence
+      average_heartrate
+      average_watts
+      kilojoules
+      max_heartrate
+      max_speed
+      max_watts
+      weighted_average_watts
+      workout_type
+      device_watts
+      has_heartrate
+      trainer
+      commute
+      manual
+      flagged
+      private
+      visibility
+    }
+  }
+}

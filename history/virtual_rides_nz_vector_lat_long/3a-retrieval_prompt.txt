@@ -1,0 +1,309 @@
+
+Based on the graphql schema below, the example record, and the additional context of the system, write a graphql query that would retrieve the data nessesary to answer the user's question:
+
+GraphQL Schema:
+schema {
+  query: WeaviateObj
+}
+
+type Activites {
+  """Record ID, used for bookkeeping."""
+  _ab_record_id: String
+  _ab_stream: String
+  _additional: ActivitesAdditional
+  achievement_count: Float
+  athlete: String
+  athlete_count: Float
+  average_cadence: Float
+  average_heartrate: Float
+  average_speed: Float
+  average_temp: Float
+  average_watts: Float
+  comment_count: Float
+  commute: Boolean
+  device_watts: Boolean
+  display_hide_heartrate_option: Boolean
+  distance: Float
+  elapsed_time: Float
+  elev_high: Float
+  elev_low: Float
+  end_latlng: String
+  external_id: String
+  flagged: Boolean
+  from_accepted_tag: Boolean
+  gear_id: String
+  has_heartrate: Boolean
+  has_kudoed: Boolean
+  heartrate_opt_out: Boolean
+  kilojoules: Float
+  kudos_count: Float
+  manual: Boolean
+  map: String
+  max_heartrate: Float
+  max_speed: Float
+  max_watts: Float
+  moving_time: Float
+  name: String
+  photo_count: Float
+  pr_count: Float
+  private: Boolean
+  raw_id: Float
+  resource_state: Float
+  sport_type: String
+  start_date: String
+  start_date_local: String
+  start_latlng: String
+  suffer_score: Float
+  text: String
+  timezone: String
+  total_elevation_gain: Float
+  total_photo_count: Float
+  trainer: Boolean
+  type: String
+  upload_id: Float
+  upload_id_str: String
+  utc_offset: Float
+  visibility: String
+  weighted_average_watts: Float
+  workout_type: String
+}
+
+"""
+An object containing the Operands that can be applied to a 'where' filter
+"""
+input GetObjectsActivitesWhereOperandsInpObj {
+  """Specify a String value that the target property will be compared to"""
+  valueString: TextStringGetObjectsActivites
+
+  """Specify a Text value that the target property will be compared to"""
+  valueText: TextGetObjectsActivites
+
+  """Specify a String value that the target property will be compared to"""
+  valueDate: TextDateGetObjectsActivites
+
+  """Contains the Operands that can be applied to a 'where' filter"""
+  operands: [GetObjectsActivitesWhereOperandsInpObj]
+
+  """Contains the Operators that can be applied to a 'where' filter"""
+  operator: GetObjectsActivitesWhereOperatorEnum
+
+  """
+  Specify the path from the Objects fields to the property name (e.g. ['Things', 'City', 'population'] leads to the 'population' property of a 'City' object)
+  """
+  path: [String]
+
+  """Specify a Boolean value that the target property will be compared to"""
+  valueBoolean: BooleanGetObjectsActivites
+
+  """Specify a Float value that the target property will be compared to"""
+  valueNumber: FloatGetObjectsActivites
+
+  """Specify an Integer value that the target property will be compared to"""
+  valueInt: IntGetObjectsActivites
+}
+
+"""Boolean or Boolean[]"""
+scalar BooleanGetObjectsActivites
+
+"""String or String[]"""
+scalar TextGetObjectsActivites
+
+"""
+An object containing the Operators that can be applied to a 'where' filter
+"""
+enum GetObjectsActivitesWhereOperatorEnum {
+  """"""
+  And
+
+  """"""
+  Like
+
+  """"""
+  LessThan
+
+  """"""
+  Equal
+
+  """"""
+  Not
+
+  """"""
+  NotEqual
+
+  """"""
+  Or
+
+  """"""
+  GreaterThanEqual
+
+  """"""
+  IsNull
+
+  """"""
+  ContainsAny
+
+  """"""
+  ContainsAll
+
+  """"""
+  GreaterThan
+
+  """"""
+  LessThanEqual
+
+  """"""
+  WithinGeoRange
+}
+
+"""
+An object containing filter options for a local Get query, used to convert the result to the specified filters
+"""
+input GetObjectsActivitesWhereInpObj {
+  """
+  Specify the path from the Objects fields to the property name (e.g. ['Things', 'City', 'population'] leads to the 'population' property of a 'City' object)
+  """
+  path: [String]
+
+  """Specify an Integer value that the target property will be compared to"""
+  valueInt: IntGetObjectsActivites
+
+  """Specify a Float value that the target property will be compared to"""
+  valueNumber: FloatGetObjectsActivites
+
+  """Contains the Operators that can be applied to a 'where' filter"""
+  operator: GetObjectsActivitesWhereOperatorEnum
+
+  """Specify a String value that the target property will be compared to"""
+  valueString: TextStringGetObjectsActivites
+
+  """Specify a String value that the target property will be compared to"""
+  valueDate: TextDateGetObjectsActivites
+
+  """Contains the Operands that can be applied to a 'where' filter"""
+  operands: [GetObjectsActivitesWhereOperandsInpObj]
+
+  """Specify a Boolean value that the target property will be compared to"""
+  valueBoolean: BooleanGetObjectsActivites
+
+  """Specify a Text value that the target property will be compared to"""
+  valueText: TextGetObjectsActivites
+}
+
+"""An object used to get %ss on a local Weaviate"""
+type GetObjectsObj {
+  Activites(
+    """Limit the results set (usually fewer results mean faster queries)"""
+    limit: Int
+
+    """Show the results after the first x results (pagination option)"""
+    offset: Int
+
+    """
+    Cut off number of results after the Nth extrema. Off by default, negative numbers mean off.
+    """
+    autocut: Int
+
+    """
+    Filter options for a local Get query, used to convert the result to the specified filters
+    """
+    where: GetObjectsActivitesWhereInpObj
+
+    """Show the results after a given ID"""
+    after: String
+  ): [Activites]
+}
+
+"""String or String[]"""
+scalar TextStringGetObjectsActivites
+
+"""Float or Float[]"""
+scalar FloatGetObjectsActivites
+
+"""Int or Int[]"""
+scalar IntGetObjectsActivites
+
+type ActivitesAdditional {
+  certainty: Float
+  creationTimeUnix: String
+  distance: Float
+  explainScore: String
+
+  """The UUID of a Object, assigned by its local Weaviate"""
+  id: String
+  lastUpdateTimeUnix: String
+  score: String
+  vector: [Float]
+}
+
+"""Location of the root query"""
+type WeaviateObj {
+  """Get Objects on a local Weaviate"""
+  Get: GetObjectsObj
+}
+
+"""String or String[]"""
+scalar TextDateGetObjectsActivites
+
+Example Related Records:
+{
+  "Get": {
+    "Activites": [
+      {
+        "athlete": "{\"id\": 54428340, \"resource_state\": 1}",
+        "average_speed": 7.862,
+        "distance": 40947.7,
+        "elev_high": 86.1,
+        "elev_low": 6.4,
+        "end_latlng": "[49.271961, -123.18351]",
+        "external_id": "773D87CB-CB13-4686-B9CB-7792BA0B2CC9",
+        "gear_id": "null",
+        "has_heartrate": true,
+        "kilojoules": null,
+        "kudos_count": 7,
+        "manual": false,
+        "max_heartrate": 164,
+        "max_speed": 15.4,
+        "max_watts": null,
+        "moving_time": 5208,
+        "name": "🧱 pt. 1",
+        "photo_count": 0,
+        "pr_count": 37,
+        "sport_type": "Ride",
+        "start_date": "2021-08-06T23:51:24Z",
+        "start_date_local": "2021-08-06T16:51:24Z",
+        "start_latlng": "[49.271848, -123.183505]",
+        "suffer_score": 36,
+        "total_elevation_gain": 305.1,
+        "total_photo_count": 0,
+        "trainer": false,
+        "type": "Ride",
+        "visibility": "everyone",
+        "weighted_average_watts": null,
+        "workout_type": null
+      }
+    ]
+  }
+}
+
+Additional System Context:
+* Fields are often stringified json objects
+* Do not assume the structure or keys of the object
+* When using where the path, operator and one of value fields are required
+* Get is the top level query and is of type WeaviateObject
+* When querying activities, assume that all entries are related to the user asking the question and there is no need to filter by athlete
+* Do not return anything other than the graphql query itself as the response will be sent to the graphql endpoint
+* Do NOT wrap the query in a code block (e.g ```graphql) or use any other markdown as the reponse to the question will be sent to the graphql endpoint
+* Im seriously not kidding, do not wrap the query in a code block or use any other markdown the repsonse should be able to be sent directly to the graphql endpoint with no modification. DO NOT WRAP THE QUERY IN A CODE BLOCK OR USE ANY OTHER MARKDOWN
+* The response must start with "query { Get {" and end with "}" i.e. All brackets should be closed
+* For activities often hints for locations are given in the name field
+* Be very precise about the fields you select, ensure they actually exists before selecting them
+
+* Instead of "where" filters lets us "nearVector" filters instead. e.g. Activities(nearVector: {vector: [...], distance: 0.8}) NOT Activities(where: {operands: [...], operator: AND})
+* DO NOT USE "where" filters, instead use "nearVector" filters instead. e.g. Activities(nearVector: {vector: $VECTOR, distance: 0.8}) NOT Activities(where: {operands: [...], operator: AND})
+* Use the string $VECTOR to represent the vector of the question. e.g. Activities(nearVector: {vector: $VECTOR, distance: 0.8}). The system will replace $VECTOR with the vector of the question
+
+
+Question:
+How many of my virtual rides have been in New Zealand?
+
+GraphQL Query:

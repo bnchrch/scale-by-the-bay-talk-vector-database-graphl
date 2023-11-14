@@ -1,0 +1,10 @@
+query {
+  Aggregate {
+    Activites(where: {operator: Equal, path: ["type"], valueText: "VirtualRide"}) {
+      elapsed_time {
+        count
+        sum
+      }
+    }
+  }
+}

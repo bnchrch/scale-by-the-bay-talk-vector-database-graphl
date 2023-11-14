@@ -1,0 +1,37 @@
+query {
+  Get {
+    Activites(limit: 1) {
+      athlete
+      average_speed
+      distance
+      elev_high
+      elev_low
+      end_latlng
+      external_id
+      gear_id
+      has_heartrate
+      kilojoules
+      kudos_count
+      manual
+      max_heartrate
+      max_speed
+      max_watts
+      moving_time
+      name
+      photo_count
+      pr_count
+      sport_type
+      start_date
+      start_date_local
+      start_latlng
+      suffer_score
+      total_elevation_gain
+      total_photo_count
+      trainer
+      type
+      visibility
+      weighted_average_watts
+      workout_type
+    }
+  }
+}

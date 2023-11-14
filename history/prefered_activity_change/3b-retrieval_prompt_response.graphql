@@ -1,0 +1,15 @@
+query {
+  Get {
+    Activites(
+      where: {
+        path: ["start_date"]
+        operator: GreaterThanEqual
+        valueDate: "2022-01-01T00:00:00Z"
+      }
+      limit: 50
+    ) {
+      sport_type
+      start_date
+    }
+  }
+}

@@ -1,0 +1,11 @@
+query {
+  Get {
+    Activites {
+      raw_id
+      start_date
+      elapsed_time
+      name
+      sport_type
+    }
+  }
+}

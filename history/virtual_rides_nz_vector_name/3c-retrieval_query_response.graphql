@@ -1,0 +1,406 @@
+{
+  "Get": {
+    "Activites": [
+      {
+        "name": "Zwift - 90min Riders Choice in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Power Ups in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - CF3 in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Power Ups in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Speed Workout Bike in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Speed Workout Bike in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - (B) Endurance 105 - Steady Easy in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Endurance 50 in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Jet setting aka new Zwift world",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Speed Drills 45 - Spin Ups in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Speed Drills 45 - Spin Ups in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - IRONMAN 70.3 Power Ups in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - (A) Hill Repeats 45 - 5x1min in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - VO2 + Endurance 60 in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Endurance 50 on Wandering Flats in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - (B) Olympic - Endurance 75 - Steady Easy in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - (A) Tempo 75 - Intervals 4x10 in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Endurance 60 - Steady Easy in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - (B) Tempo 75 - Intervals 4x10 in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Endurance 60 - Steady Easy in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Force 60 - 20s Sprints in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "NYC",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Trying to be one of the cool kids",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Threshold Vo2Max 45 - 4min + 2x90s in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Oscar Peralta's Meetup on Country to Coastal in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - TTT: Zwift Racing League | WTRL - AMERICAS WEST Women's Division1 (B) on Wandering Flats in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - 4x10",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Only ride with me if you want a flat",
+        "type": "Ride"
+      },
+      {
+        "name": "Zwift - (A) Strength Low Cadence 60 in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Beach Island Loop in Watopia",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Z2/3 70 ",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Watopia",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - 4x10 on Beach Island Loop in Watopia",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Tempo 90 - Intervals 4x15 in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Race: Zwift Racing League | WTRL - Americas West Women's B1 on Neon Flats in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Tempo 90 - Intervals 4x6 in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Race: Zwift Racing League - Americas West Women's B1 on Sprinter's Playground in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Threshold 60 - Over Unders 3x10min in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Step By Step",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Race: ZWIFT Racing League | WTRL - Women's AMERICAS WEST DIV1 (C) on Chasing the Sun in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Oscar Peralta's Meetup on Railways and Rooftops in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Z2/Z3 (60mins)",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "2 By 2",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Oscar Peralta's Meetup on Fine and Sandy in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Ruckus",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Victoria Cruise",
+        "type": "Ride"
+      },
+      {
+        "name": "Zwift - Speed Drills 60 - Cadence Intervals 3X4x1min in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Speed Drills 60 - Cadence Intervals 3X4x1min in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Endurance 50 in New York",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Beach Island Loop in Watopia",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "👑👑👑",
+        "type": "Ride"
+      },
+      {
+        "name": "☀️ + 🗻",
+        "type": "Ride"
+      },
+      {
+        "name": "This is why people live in Vancouver ☀️🌊",
+        "type": "Ride"
+      },
+      {
+        "name": "New whip!",
+        "type": "Ride"
+      },
+      {
+        "name": "Zwift - Oscar Peralta's Meetup on Sea to Tree in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Race: WTRL Racing Finals - Womens Americas CUP Div1 (C) on Sprinter's Playground in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Melissa Rumbles [WCC1]'s Meetup on Sprinter's Playground in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "FriYAY",
+        "type": "Ride"
+      },
+      {
+        "name": "Zwift - Oscar Peralta's Meetup on Valley to Mountaintop in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Endurance 70",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "🚴‍♀️🚴‍♀️ —> 📌 —> 🚴‍♀️",
+        "type": "Ride"
+      },
+      {
+        "name": "Tempo 120 - Intervals 4x15 in Makuri Islands",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Endurance 70",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Endurance 70",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "First zwift race was a rough one",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Back from the dead - sort of",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Endurance 70",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Back from the dead - sort of",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "First 100 km! 🚴‍♀️🚴‍♂️🚴‍♀️🚴‍♂️🚴‍♀️☀️💦",
+        "type": "Ride"
+      },
+      {
+        "name": "Zwift - EZ Long Ride in Watopia",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Creatures of habit 🚴‍♀️🚴‍♀️",
+        "type": "Ride"
+      },
+      {
+        "name": "🚴‍♀️🚴‍♀️🚴‍♀️😊",
+        "type": "Ride"
+      },
+      {
+        "name": "Chill rides are nice too",
+        "type": "Ride"
+      },
+      {
+        "name": "No rain no gain",
+        "type": "Ride"
+      },
+      {
+        "name": "High Intensity Recovery",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "⛰🚴‍♂️🚴‍♀️🚴‍♀️🚴‍♂️       🚴‍♀️",
+        "type": "Ride"
+      },
+      {
+        "name": "🌲🌲🌲",
+        "type": "Run"
+      },
+      {
+        "name": "I almost puked an hour in but then it was chill",
+        "type": "Ride"
+      },
+      {
+        "name": "Build Me Up - Kirizuma",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "New Bike Day!",
+        "type": "Ride"
+      },
+      {
+        "name": "Part 2",
+        "type": "Ride"
+      },
+      {
+        "name": "Many bruises",
+        "type": "Ride"
+      },
+      {
+        "name": "Part 2",
+        "type": "Ride"
+      },
+      {
+        "name": "Victoria 70.3 - bike",
+        "type": "Ride"
+      },
+      {
+        "name": "Zwift - Sweet Spot 60 - 4x8min in New York",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Back on our bullshit",
+        "type": "Ride"
+      },
+      {
+        "name": "I think fall is here 💨🍂",
+        "type": "Ride"
+      },
+      {
+        "name": "Zwift - IRONMAN 70.3 Power Ups in Watopia",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - TTT Practice",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Part 1 (missing a bunch)",
+        "type": "Ride"
+      },
+      {
+        "name": "Zwift - (B) Endurance 45 - Steady Easy in Watopia",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Zwift - Watopia",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Friday night 🎉🍹🍻🥂",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "Hillz ",
+        "type": "Ride"
+      },
+      {
+        "name": "High Intensity Recovery",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "🧱 pt. 1",
+        "type": "Ride"
+      },
+      {
+        "name": "☀️!",
+        "type": "Run"
+      },
+      {
+        "name": "Zwift - Endurance 50",
+        "type": "VirtualRide"
+      },
+      {
+        "name": "No PRs today 💀 ",
+        "type": "Ride"
+      },
+      {
+        "name": "Zwift - Jon's Mix in Watopia",
+        "type": "VirtualRide"
+      }
+    ]
+  }
+}

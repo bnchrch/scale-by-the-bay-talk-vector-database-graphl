@@ -1,0 +1,3 @@
+export const SECRET_WEAVIATE_API_KEY = "YOUR API KEY HERE";
+export const SECRET_OPEN_AI_KEY = "YOUR API KEY HERE";
+

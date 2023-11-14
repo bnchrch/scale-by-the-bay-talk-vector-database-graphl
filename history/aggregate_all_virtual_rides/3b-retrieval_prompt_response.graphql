@@ -1,0 +1,9 @@
+query { 
+  Aggregate { 
+    Activites(where: {operator: Equal, path: ["type"], valueString: "VirtualRide"}) {
+      type {
+        count
+      }
+    }
+  }
+}

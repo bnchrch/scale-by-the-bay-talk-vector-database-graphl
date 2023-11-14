@@ -1,0 +1,1 @@
+How many of my rides have been Virtual Rides? We can tell if a ride is virtual if the type is VirtualRide. Answer this using the GraphQL Endpoints Aggregate functions.

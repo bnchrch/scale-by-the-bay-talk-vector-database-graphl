@@ -1,0 +1,11 @@
+query {
+  Get {
+    Activites(
+      nearVector: { vector: $VECTOR, distance: 0.8 },
+      where: {path: ["type"], operator: Equal, valueString: "VirtualRide"}
+      limit: 100) {
+      name
+      type
+    }
+  }
+}

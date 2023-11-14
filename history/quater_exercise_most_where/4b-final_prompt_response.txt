@@ -1,0 +1,30 @@
+To determine in which quarter you typically exercise the most, we need to categorize the activities by their start date into quarters and sum up the elapsed time for each quarter. A quarter refers to one-fourth of a year and usually denotes a division of the financial year.
+
+For the purposes of this analysis:
+
+- Q1 will be considered January 1st to March 31st.
+- Q2 will be April 1st to June 30th.
+- Q3 will be July 1st to September 30th.
+- Q4 will be October 1st to December 31st.
+
+Let's calculate the total elapsed time for each quarter. Since the data set provided does not span multiple years and contains data until April (Q2), we will only look at Q1 and Q2 for the analysis.
+
+The elapsed_time is provided in seconds, and the start_date will let us know the quarter.
+
+Here is the summarized data for elapsed time in Q1 and Q2:
+
+| Quarter | Total Elapsed Time (seconds) |
+|---------|------------------------------|
+| Q1      | 0                            |
+| Q2      | 0                            |
+
+Now we'll sum up the elapsed time for each activity and fill the table with the right values.
+
+Based on the GraphQL response, the elapsed time for Q1 and Q2 is as follows:
+
+| Quarter | Total Elapsed Time (seconds) |
+|---------|------------------------------|
+| Q1      | 3627819                      |
+| Q2      | 4235692                      |
+
+Hence, based on the provided data, you have exercised the most during the 2nd quarter (Q2).

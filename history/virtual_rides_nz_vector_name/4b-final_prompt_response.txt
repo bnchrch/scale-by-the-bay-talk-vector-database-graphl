@@ -1,0 +1,15 @@
+To determine how many of your virtual rides have been in New Zealand, the GraphQL query response includes various activities with associated names. Based on the query response, none of the activities explicitly mention New Zealand in their names, but you mentioned that virtual rides in New Zealand can be identified by the activity's name.
+
+Unfortunately, no activities contain recognizable New Zealand names or locations. The activities listed are either rides in Watopia, New York, Makuri Islands, or have generic names that do not specify New Zealand.
+
+Here is a summary of the rides and their locations based on the name fields:
+
+| Activity Name                               | Location      | Count |
+|---------------------------------------------|---------------|-------|
+| Rides in Makuri Islands                     | Makuri Islands|  34   |
+| Rides in Watopia                            | Watopia       |  5    |
+| Rides in New York                           | New York      |  2    |
+| Rides with generic names or other locations | Other         |  6    |
+| **Total Virtual Rides**                     |               | **47**|
+
+None of the 47 virtual rides listed in the response are explicitly indicated to be in New Zealand based on their names. Thus, your virtual rides in New Zealand, identified solely by the provided nearVector filter and activity names, appear to be **zero**.

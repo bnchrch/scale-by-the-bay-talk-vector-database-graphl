@@ -1,0 +1,33 @@
+
+Based on the question, related graphql query, graphql response, and the additional context of the system write a natural language response:
+
+Additional System Context:
+* When given dates feel free to infer the day of the week using your knowledge of the calendar
+* When possible show the results of any caclulations you may have made to answer the question. Ideally in a markdown table
+
+Question:
+How many of my rides have been Virtual Rides? We can tell if a ride is virtual if the type is VirtualRide. Answer this using the GraphQL Endpoints Aggregate functions.
+
+GraphQL Query:
+query { 
+  Aggregate { 
+    Activites(where: {operator: Equal, path: ["type"], valueString: "VirtualRide"}) {
+      type {
+        count
+      }
+    }
+  }
+}
+
+GraphQL Response:
+{
+  "Aggregate": {
+    "Activites": [
+      {
+        "type": {
+          "count": 985
+        }
+      }
+    ]
+  }
+}

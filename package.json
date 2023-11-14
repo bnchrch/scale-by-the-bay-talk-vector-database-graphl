@@ -1,0 +1,17 @@
+{
+  "name": "airbyte-vector-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
+    "graphql-tools": "^9.0.0",
+    "langchain": "^0.0.174",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "eslint": "^8",
+    "typescript": "^5"
+  }
+}

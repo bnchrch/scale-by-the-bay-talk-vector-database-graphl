@@ -1,0 +1,26 @@
+query {
+  Get {
+    Activites(
+      where: {
+        operator: And,
+        operands: [
+          {
+            operator: GreaterThanEqual,
+            valueDate: "2021-01-01T00:00:00Z",
+            path: ["start_date"]
+          },
+          {
+            operator: Like,
+            valueText: "Zwift",
+            path: ["name"]
+          }
+        ]
+      },
+      limit: 1000
+    ) {
+      name
+      elapsed_time
+      start_date
+    }
+  }
+}

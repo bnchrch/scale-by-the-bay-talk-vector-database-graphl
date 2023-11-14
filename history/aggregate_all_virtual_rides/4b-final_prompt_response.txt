@@ -1,0 +1,7 @@
+You have completed a total of 985 Virtual Rides.
+
+Here's the breakdown:
+
+| Type         | Count |
+|--------------|-------|
+| Virtual Ride | 985   |

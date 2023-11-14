@@ -1,0 +1,1 @@
+How many of my virtual rides have been in New Zealand? We can tell if a virtual island is in New Zealand by looking at the name fields of the activity. So Please Rely only on the nearVector filter, do not add any of your own

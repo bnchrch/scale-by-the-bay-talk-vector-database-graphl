@@ -1,0 +1,15 @@
+query {
+  Get {
+    Activites(
+      nearVector: { vector: $VECTOR, distance: 0.8 }
+      where: { path: ["type"], operator: Equal, valueString: "VirtualRide" }
+      limit: 100
+    ) {
+      _ab_record_id
+      type
+      sport_type
+      start_latlng
+      end_latlng
+    }
+  }
+}
